@@ -5,31 +5,32 @@
 }
 
 body {
-    background-color: slategrey;
+    background-color: #ffffff;
 }
 
 /* start header style */
 header {
-    background-color: black;
+    background-color: #32343d;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: steelblue;
+    color: #82b5c3;
 }
 
 header h1 {
-    background: skyblue;
+    background: #82b5c3;
     height: 100px;
     width: 400px;
     padding: 30px 30px 30px 120px;
     display: inline-block;
+    color: #252b33;
+    margin: 30px 0;
 }
 
 header nav {
-    background: skyblue;
     font-size: 28px;  
     height: 100px;
     width: 600px;
     float: right;
-    padding: 30px 30px 30px 30px;
+    padding: 80px 30px 0 30px;
 }
 
 header nav ul li {
@@ -40,26 +41,46 @@ header nav ul li {
 
 a {
     text-decoration: none;
-    color:steelblue;
+    color: #82b5c3;
 }
 
 section {
-    padding: 200px;
 }
 
 /* start hero banner */
-
 .hero {
-    background-image: url('../assets/images/IMG_1738.JPG');
+    height: 200px;
+    width: 100%;
+    background-image: url("../assets/images/hero-bg.png");
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap:wrap;
-    align-items: fixed;
-    background-attachment: fixed;
-    background-position: 80%;
 }
+
 
 /* end hero banner */
 
+main {
+    color: #52708b;
+    position: relative;
+    text-align: right;
+}
+
+main h2 {
+    font-size: 60px;
+    float: left;
+    display: inline;
+}
+
+main p {
+    display: inline-block;
+    margin: 0 1.5%;
+    width: 30%;
+}
+
+.section-title h2{
+    font-size: 60px;
+    border-right: 3px solid;
+    padding-right: 20px;
+    text-align: left;
+    margin: 0 auto 35px auto;
+}
