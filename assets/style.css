@@ -105,3 +105,20 @@ section {
     text-decoration: none;
     color: black;
 }
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new {
+    background-color: var(--secondary-color);
+    width: 100%;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.proj-row {
+    background-color: var(--secondary-color);
+    width: 50%;
+}
