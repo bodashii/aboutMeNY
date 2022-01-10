@@ -108,15 +108,13 @@ section {
 
 .work-content {
     display: flex;
-    padding-left: 20px;
-    width: 70%;
-    margin:auto 20px;
-    flex-flow: wrap;
+    flex-wrap: wrap;
 }
 
 .item {
-    width: 150px;
-    height: 75px;
+    width: 400px;
+    height: 250px;
+    background-color: var(--secondary-color);
 }
 
 .item img {
