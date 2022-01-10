@@ -106,9 +106,35 @@ section {
     color: black;
 }
 
-.projects {
+.work-content {
     display: flex;
+    padding-left: 20px;
+    width: 70%;
+    margin:auto 20px;
+    flex-flow: wrap;
+}
+
+.item {
+    width: 150px;
+    height: 75px;
+}
+
+.item img {
+    object-fit: contain;
+}
+
+/* .projects {
+    padding-left: 20px;
+    width: 70%;
     flex-wrap: wrap;
+    margin: auto 20px;
+}
+.content a div {
+    border: 5px solid var(--primary-color);
+    flex-grow: 1;
+}
+.projects a img {
+    border: 5px solid var(--primary-color);
 }
 
 .projects h3 {
@@ -121,45 +147,8 @@ section {
     font-weight: lighter;
 }
 
-.proj-border {
-    border: 3px solid var(--primary-color);
-    margin: 5px;
-}
-
-.new {
-    background-image: url("../assets/images/runBuddyimg.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding-top: 40%;
-}
-
-.proj-code {
-    background-image: url("../assets/images/refactorChallengerNYimg.jpeg");
-    background-size: cover;
-    width: 49%;
-}
-
-.proj-me {
-    background-image: url("../assets/images/portfolio.jpeg");
-    background-size: cover;
-    width: 49%;
-}
-
-.soon {
-    background-color: slateblue;
-    background-size: cover;
-    width: 49%;
-}
-
-.proj-row {
-    background-color: var(--secondary-color);
-    flex-flow: wrap;
-    justify-content: space-evenly;
-    color: black;
-    border: 5px solid var(--primary-color);
-    padding: 20px 0;
-    padding-top: 15%;
+.runBuddy {
+    height: 450px;
 }
 
 .proj-title {
@@ -169,5 +158,6 @@ section {
     z-index: 9999;
     display: inline-block;
     color: black;
-}
-
+    position: relative;
+    bottom: 125px;
+} */
