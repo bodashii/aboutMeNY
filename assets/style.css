@@ -83,10 +83,10 @@ section {
 .content {
     font-size: 16px;
     color: slategray;
-    padding-left: 20px;
     width: 70%;
     flex-wrap: wrap;
     margin: auto 20px;
+    align-content: center;
 }
 
 .content p {
@@ -109,16 +109,34 @@ section {
 .work-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content center
+}
+.content img {
+}
+.work-content img {
+
 }
 
 .item {
-    width: 400px;
+    width: 350px;
     height: 250px;
     background-color: var(--secondary-color);
+    border: 5px solid var(--primary-color);
 }
 
 .item img {
     object-fit: contain;
+}
+
+.proj-title {
+    background-color: var(--primary-color);
+    padding: 10px 10px 10px 40px;
+    margin: 10px 0;
+    z-index:9999;
+    color: black;
+    position: relative; 
+    display: inline-block;
+    bottom:100px;
 }
 
 /* .projects {
