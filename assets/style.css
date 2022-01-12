@@ -87,6 +87,8 @@ section {
     flex-wrap: wrap;
     margin: auto 20px;
     align-content: center;
+    display:flex;
+    align-content: flex-start;
 }
 
 .content p {
@@ -106,10 +108,15 @@ section {
     color: black;
 }
 
+/* .runbuddy{
+    background-image: url("/assets/images/runBuddy.jpg");
+    height: 500px;
+    width: 800px;
+} */
+
 .work-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content center
 }
 .content img {
 }
@@ -124,10 +131,6 @@ section {
     border: 5px solid var(--primary-color);
 }
 
-.item img {
-    object-fit: contain;
-}
-
 .proj-title {
     background-color: var(--primary-color);
     padding: 10px 10px 10px 40px;
@@ -135,8 +138,8 @@ section {
     z-index:9999;
     color: black;
     position: relative; 
-    display: inline-block;
     bottom:100px;
+    width: 175px;
 }
 
 /* .projects {
