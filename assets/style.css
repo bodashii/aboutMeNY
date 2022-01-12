@@ -39,6 +39,7 @@ header nav ul li {
 a {
     text-decoration: none;
     color: var(--primary-color);
+    height: 500px;
 }
 
 body {
@@ -53,7 +54,7 @@ section {
 
 /* start hero banner */
 .hero {
-    background-image: url("../assets/images/IMG_8754.jpg");
+    background-image: url("./images/IMG_8754.jpg");
     background-size: cover;
     padding: 200px 0;
 }
@@ -88,7 +89,8 @@ section {
     margin: auto 20px;
     align-content: center;
     display:flex;
-    align-content: flex-start;
+    align-content: space-around;
+    width: 900px;
 }
 
 .content p {
@@ -108,27 +110,19 @@ section {
     color: black;
 }
 
-/* .runbuddy{
+.runBuddy{
     background-image: url("/assets/images/runBuddy.jpg");
-    height: 500px;
-    width: 800px;
-} */
-
-.work-content {
-    display: flex;
-    flex-wrap: wrap;
-}
-.content img {
-}
-.work-content img {
-
-}
+    border: 5px solid var(--primary-color);
+} 
 
 .item {
     width: 350px;
-    height: 250px;
-    background-color: var(--secondary-color);
-    border: 5px solid var(--primary-color);
+    height: 250px;  
+    
+}
+
+.item img {
+    border: 5px solid var(--primary-color); 
 }
 
 .proj-title {
@@ -139,7 +133,7 @@ section {
     color: black;
     position: relative; 
     bottom:100px;
-    width: 175px;
+    width: 12em;
 }
 
 /* .projects {
