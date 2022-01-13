@@ -113,13 +113,23 @@ section {
 .runBuddy{
     background-image: url("/assets/images/runBuddy.jpg");
     border: 5px solid var(--primary-color);
+    opacity: 0.8;
 } 
+
+.runBuddy:hover {
+    opacity: 1;
+}
 
 .item {
     width: 350px;
     height: 250px;  
-    
+    opacity: 0.8;
 }
+
+.item:hover {
+    opacity: 1;
+}
+
 
 .item img {
     border: 5px solid var(--primary-color); 
@@ -136,41 +146,44 @@ section {
     width: 12em;
 }
 
-/* .projects {
-    padding-left: 20px;
-    width: 70%;
-    flex-wrap: wrap;
-    margin: auto 20px;
-}
-.content a div {
-    border: 5px solid var(--primary-color);
-    flex-grow: 1;
-}
-.projects a img {
-    border: 5px solid var(--primary-color);
-}
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    
+    header {
+        width: 100%;
+        display: flex;
+    }
 
-.projects h3 {
-    font-size: 22px;
-    font-weight: bold;
-}
+    h1 {
+        width: 65%;
+        height: 65%;
+    }
 
-.projects p {
-    font-size: 14px;
-    font-weight: lighter;
-}
+    nav {
+        width: 35%;
+        display: inline-block;
+    }
 
-.runBuddy {
-    height: 450px;
-}
+    section {
+        width: 100%;
+    }
 
-.proj-title {
-    background-color: var(--primary-color);
-    padding: 10px 10px 10px 40px;
-    margin: 10px 0;
-    z-index: 9999;
-    display: inline-block;
-    color: black;
-    position: relative;
-    bottom: 125px;
-} */
+    main {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        border-right: 14em;
+    }
+
+    .content {
+        font-size: 5vw;
+    }
+
+    .title {
+        font-size: 18vw;    
+    }
+
